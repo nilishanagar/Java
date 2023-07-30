@@ -1,0 +1,12 @@
+class Upper_LowerCase{
+public static void main(String args[])
+{
+char ch='b';
+if(ch>=97 && ch <= 122)
+{ ch=(char)ch-32;  }
+
+//=Character.toUpperCase(ch);
+
+System.out.println(ch);
+}
+}
